@@ -576,6 +576,17 @@
                         <!-- Due to spring-boot repackage, without adding this property test classes are not found
                              See https://github.com/spring-projects/spring-boot/issues/6254 -->
                         <!-- Force alphabetical order to have a reproducible build -->
+                        <to>
+                            <image>santidotpy/wea-jenkins:latest</image>
+                            <tags>
+                            <tag>${project.version}</tag>
+                            <tag>latest</tag>
+                            </tags>
+                            <auth>
+                            <username>${DOCKER_REGISTRY_USER}</username>
+                            <password>${DOCKER_REGISTRY_PWD}</password>
+                            </auth>
+                        </to>
                         <classesDirectory>${project.build.outputDirectory}</classesDirectory>
                         <runOrder>alphabetical</runOrder>
                         <includes>

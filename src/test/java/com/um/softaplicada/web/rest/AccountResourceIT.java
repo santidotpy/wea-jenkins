@@ -14,7 +14,6 @@ import com.um.softaplicada.security.AuthoritiesConstants;
 import com.um.softaplicada.service.UserService;
 import com.um.softaplicada.service.dto.AdminUserDTO;
 import com.um.softaplicada.service.dto.PasswordChangeDTO;
-import com.um.softaplicada.service.dto.UserDTO;
 import com.um.softaplicada.web.rest.vm.KeyAndPasswordVM;
 import com.um.softaplicada.web.rest.vm.ManagedUserVM;
 import java.time.Instant;

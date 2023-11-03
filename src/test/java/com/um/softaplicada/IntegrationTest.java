@@ -1,6 +1,5 @@
 package com.um.softaplicada;
 
-import com.um.softaplicada.FinalApp;
 import com.um.softaplicada.config.AsyncSyncConfiguration;
 import com.um.softaplicada.config.EmbeddedSQL;
 import java.lang.annotation.ElementType;
